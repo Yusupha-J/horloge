@@ -17,7 +17,7 @@ let sayHi = document.getElementById('say-hi');
         //* Entre 5h et 18h, on affiche "Bonjour !" en injectant du code dans l'id say-hi
 
 
-            if (currentHour >5 && currentHour <18) {
+            if (currentHour >=5 && currentHour <=18) {
                sayHi.innerHTML =  "bonjour"
             } 
 
